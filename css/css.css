@@ -1,0 +1,116 @@
+body {
+	background-image: url('https://i.imgur.com/GjscCgG.jpg');
+
+}
+
+h2 {
+	text-align: center;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#cuerpo {
+	margin-top: 50px;
+}
+#tabla1 {
+    border-radius: 16px 16px 16px 16px;
+    -moz-border-radius: 16px 16px 16px 16px;
+    -webkit-border-radius: 16px 16px 16px 16px;
+    border-collapse: separate;
+    background: rgba(255, 255, 255, 0.90);
+    margin: 15px;
+  	padding: 15px;
+  	margin-left:auto; 
+    margin-right:auto;
+}
+#tabla1 th{
+	text-align:left;
+}
+#tabla1 input[type=submit], #tabla1 input[type=button] {
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	-moz-border-radius: 6px 6px 6px 6px;
+    -webkit-border-radius: 6px 6px 6px 6px;
+	margin:0 auto;
+	height:2.1em;
+	width: 90%;
+	padding:0em;
+	white-space:nowrap;
+	cursor:pointer;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+#tabla1 input[type=text], #tabla1 input[type=password], #tabla1 input[type=email]{
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	-moz-border-radius: 6px 6px 6px 6px;
+    -webkit-border-radius: 6px 6px 6px 6px;
+	margin:0 auto;
+	height:1.9em;
+	width: 90%;
+	padding:5px;
+	white-space:nowrap;
+}
+#tabla1 textarea{
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	-moz-border-radius: 6px 6px 6px 6px;
+    -webkit-border-radius: 6px 6px 6px 6px;
+	margin:0 auto;
+	padding:5px;
+	white-space:nowrap;
+}
+#tabla1 select {
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	-moz-border-radius: 6px 6px 6px 6px;
+    -webkit-border-radius: 6px 6px 6px 6px;
+	margin:0 auto;
+	height:2.1em;
+	width: 90%;
+	padding:5px;
+	white-space:nowrap;
+	cursor: pointer;
+}
+#boto {
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	-moz-border-radius: 6px 6px 6px 6px;
+    -webkit-border-radius: 6px 6px 6px 6px;
+	margin:0 auto;
+	height:2.1em;
+	width: 90%;
+	padding:0em;
+	white-space:nowrap;
+	cursor:pointer;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+#centrar {
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	border-radius: 16px 16px 16px 16px;
+    -moz-border-radius: 16px 16px 16px 16px;
+    -webkit-border-radius: 16px 16px 16px 16px;
+    border-collapse: separate;
+    background: rgba(41, 128, 185, 0.40);
+    margin: 15px;
+  	padding: 15px;
+}
+
+#sombra {
+	border-radius: 16px 16px 16px 16px;
+    -moz-border-radius: 16px 16px 16px 16px;
+    -webkit-border-radius: 16px 16px 16px 16px;
+    border-collapse: separate;
+    background: rgba(41, 128, 185, 0.40);
+    margin: 10px;
+  	padding: 10px;
+}
